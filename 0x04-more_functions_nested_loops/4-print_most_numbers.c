@@ -1,19 +1,16 @@
 #include "main.h"
+
 /**
- * print_most_numbers - check the code for Holberton School students.
- * Return: Always 0.
- */
+* print_most_numbers -> this prints most numbers
+*/
 void print_most_numbers(void)
 {
-	char c = '0';
+	int x;
 
-	while (c <= '9')
+	for (x = 0; x < 10; x++)
 	{
-		if (c != '2' && c != '4')
-		{
-			_putchar(c);
-		}
-	c++;
+		if (x != 2 && x != 4)
+			_putchar(x + '0');
 	}
-_putchar('\n');
+	_putchar('\n');
 }
