@@ -1,15 +1,16 @@
 #include "main.h"
 #include <string.h>
 /**
-  * _strlen - returns the length of a string
-  * @s: String
-  * Return: Returns the length of the string
-  *
-  */
-
+ * _strlen - check the code for Holberton School students.
+ * @s: declaration of *s and paramters for the function _strlen
+ * Return: Always 0.
+ */
 int _strlen(char *s)
 {
-	return (strlen(s));
-}
-Footer
+	int c;
 
+	for (c = 0; s[c] != 0; c++)
+	{
+	}
+	return (c);
+}
